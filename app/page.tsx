@@ -4,9 +4,14 @@ import { useEffect, useState } from "react"
 
 export default function Portfolio() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [typedText, setTypedText] = useState("")
+  const [typedText, setTypedText] = useState("Saksham Singhal")
   const [isDeleting, setIsDeleting] = useState(false)
+  const [isHydrated, setIsHydrated] = useState(false)
   const fullText = "Saksham Singhal"
+
+  useEffect(() => {
+    setIsHydrated(true)
+  }, [])
 
   useEffect(() => {
     const animateText = (element: Element) => {
@@ -61,6 +66,8 @@ export default function Portfolio() {
   }, [])
 
   useEffect(() => {
+    if (!isHydrated) return
+
     const typingSpeed = isDeleting ? 80 : 150
     const pauseDuration = 2000
 
@@ -77,7 +84,7 @@ export default function Portfolio() {
     }, typingSpeed)
 
     return () => clearTimeout(timer)
-  }, [typedText, isDeleting])
+  }, [typedText, isDeleting, isHydrated, fullText])
 
   const handleLinkClick = () => {
     setMobileMenuOpen(false)
