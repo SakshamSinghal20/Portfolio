@@ -298,34 +298,58 @@ export default function Portfolio() {
             <div className="section-header animate-on-scroll">
               <h2 className="section-title">Skills & Technologies</h2>
             </div>
-            <div className="skills-container">
-              <div className="skill-category animate-on-scroll">
-                <h3 className="skill-category-title">Frontend</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">CSS</span>
-                  <span className="skill-tag">CSS3</span>
-                  <span className="skill-tag">Tailwind</span>
-                  <span className="skill-tag">React</span>
-                  <span className="skill-tag">JavaScript</span>
+            <div className="skills-grid">
+              <div className="skill-section animate-on-scroll">
+                <h3 className="skill-section-title">Frontend</h3>
+                <div className="skill-table">
+                  <div className="skill-row">
+                    <span className="skill-name">CSS</span>
+                  </div>
+                  <div className="skill-row">
+                    <span className="skill-name">CSS3</span>
+                  </div>
+                  <div className="skill-row">
+                    <span className="skill-name">Tailwind</span>
+                  </div>
+                  <div className="skill-row">
+                    <span className="skill-name">React</span>
+                  </div>
+                  <div className="skill-row">
+                    <span className="skill-name">JavaScript</span>
+                  </div>
                 </div>
               </div>
 
-              <div className="skill-category animate-on-scroll">
-                <h3 className="skill-category-title">Backend</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">Python</span>
-                  <span className="skill-tag">Rust</span>
-                  <span className="skill-tag">Node.js</span>
+              <div className="skill-section animate-on-scroll">
+                <h3 className="skill-section-title">Backend</h3>
+                <div className="skill-table">
+                  <div className="skill-row">
+                    <span className="skill-name">Python</span>
+                  </div>
+                  <div className="skill-row">
+                    <span className="skill-name">Rust</span>
+                  </div>
+                  <div className="skill-row">
+                    <span className="skill-name">Node.js</span>
+                  </div>
                 </div>
               </div>
 
-              <div className="skill-category animate-on-scroll">
-                <h3 className="skill-category-title">Extra</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">SQL</span>
-                  <span className="skill-tag">MongoDB</span>
-                  <span className="skill-tag">Docker</span>
-                  <span className="skill-tag">DSA</span>
+              <div className="skill-section animate-on-scroll">
+                <h3 className="skill-section-title">Extra</h3>
+                <div className="skill-table">
+                  <div className="skill-row">
+                    <span className="skill-name">SQL</span>
+                  </div>
+                  <div className="skill-row">
+                    <span className="skill-name">MongoDB</span>
+                  </div>
+                  <div className="skill-row">
+                    <span className="skill-name">Docker</span>
+                  </div>
+                  <div className="skill-row">
+                    <span className="skill-name">DSA</span>
+                  </div>
                 </div>
               </div>
             </div>

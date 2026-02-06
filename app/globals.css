@@ -492,50 +492,56 @@ nav {
   padding: 100px 0;
 }
 
-.skills-container {
-  display: flex;
-  flex-direction: column;
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.skill-category {
-  border-left: 3px solid var(--accent);
-  padding-left: 24px;
+.skill-section {
+  background: var(--gray-light);
+  border-radius: 8px;
+  padding: 32px;
+  border-top: 3px solid var(--accent);
 }
 
-.skill-category-title {
+.skill-section-title {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
   color: var(--text-primary);
+  text-align: center;
 }
 
-.skill-tags {
+.skill-table {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+  flex-direction: column;
+  gap: 0;
 }
 
-.skill-tag {
-  display: inline-block;
-  background: var(--gray-light);
+.skill-row {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+}
+
+.skill-row:last-child {
+  border-bottom: none;
+}
+
+.skill-name {
+  font-size: 15px;
   color: var(--text-primary);
-  padding: 8px 16px;
-  border-radius: 24px;
-  font-size: 14px;
   font-weight: 500;
-  border: 1px solid var(--border);
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.skill-tag:hover {
-  background: var(--accent);
-  color: white;
-  border-color: var(--accent);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+.skill-row:hover .skill-name {
+  color: var(--accent);
+  padding-left: 8px;
 }
 
 .card-tag {
@@ -1041,17 +1047,26 @@ footer {
   }
 
   /* Skills section mobile styles */
-  .skills-container {
-    gap: 30px;
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
 
-  .skill-category-title {
+  .skill-section {
+    padding: 24px;
+  }
+
+  .skill-section-title {
     font-size: 18px;
+    margin-bottom: 18px;
   }
 
-  .skill-tag {
-    padding: 6px 14px;
-    font-size: 13px;
+  .skill-row {
+    padding: 10px 0;
+  }
+
+  .skill-name {
+    font-size: 14px;
   }
 
   /* Show mobile menu button and hide desktop nav on mobile */
