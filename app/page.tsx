@@ -1,4 +1,4 @@
-"use client"
+'use client';
 
 import { useEffect, useState } from "react"
 
@@ -411,7 +411,7 @@ export default function Portfolio() {
       <footer>
         <div className="container">
           <div className="footer-grid">
-            <div className="logo">YOURNAME</div>
+            <div className="logo">SAKSHAM</div>
             <div className="footer-content">
               <nav className="footer-nav">
                 <a href="#about">About</a>
