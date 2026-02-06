@@ -356,21 +356,6 @@ export default function Portfolio() {
           </div>
         </section>
 
-        <section className="newsletter animate-on-scroll">
-          <div className="container">
-            <div className="newsletter-inner">
-              <h2>Stay Updated</h2>
-              <p>Get insights on design, development, and product thinking delivered to your inbox.</p>
-              <form className="form-group">
-                <input type="email" placeholder="Enter your email" aria-label="Email address" />
-                <button type="submit" className="btn-subscribe">
-                  Subscribe
-                </button>
-              </form>
-            </div>
-          </div>
-        </section>
-
         <section id="contact" className="section contact-section">
           <div className="container">
             <div className="contact-wrapper animate-on-scroll">
