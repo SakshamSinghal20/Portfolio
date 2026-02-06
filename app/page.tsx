@@ -6,7 +6,7 @@ export default function Portfolio() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [typedText, setTypedText] = useState("")
   const [isDeleting, setIsDeleting] = useState(false)
-  const fullText = "Your Name"
+  const fullText = "Saksham Singhal"
 
   useEffect(() => {
     const animateText = (element: Element) => {
@@ -182,20 +182,19 @@ export default function Portfolio() {
               <div className="hero-content-wrapper">
                 <div className="hero-image-container animate-on-scroll">
                   <div className="hero-image-bg"></div>
-                  <img src="/images/me-02.jpg" alt="Profile" className="hero-image" />
+                  <img src="/saksham.jpg" alt="Saksham Singhal" className="hero-image" />
                 </div>
                 <div className="hero-content">
-                  <span className="hero-role">Product Designer & Developer</span>
+                  <span className="hero-role">AI & Machine Learning Specialist</span>
                   <div className="hero-location">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                       <circle cx="12" cy="10" r="3" />
                     </svg>
-                    San Francisco, CA
+                    Bangalore, India
                   </div>
                   <p className="hero-bio">
-                    I craft delightful digital experiences that merge thoughtful design with robust engineering.
-                    Currently building the future of design tools and creative workflows.
+                    I am Saksham Singhal, an aspiring AI and Machine Learning specialist currently pursuing my degree through Medhavi Skills University. Navigating the world of advanced technology via distance learning has fueled my independence and discipline, allowing me to dive deep into the architecture of intelligent systems while staying ahead of evolving industry trends. I am driven by a fascination for how data can be transformed into actionable intelligence, focusing my academic journey on the potential of neural networks, natural language processing, and predictive analytics. By blending theoretical rigor with a forward-looking perspective, I am preparing to build scalable solutions that address complex, real-world challenges and actively contribute to the future of the digital age.
                   </p>
                 </div>
               </div>
@@ -370,14 +369,14 @@ export default function Portfolio() {
                       <rect x="2" y="4" width="20" height="16" rx="2" />
                       <path d="m2 7 10 7 10-7" />
                     </svg>
-                    <span>hello@yourname.com</span>
+                    <span>saksham@example.com</span>
                   </div>
                   <div className="contact-item">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                       <circle cx="12" cy="10" r="3" />
                     </svg>
-                    <span>San Francisco, CA</span>
+                    <span>Bangalore, India</span>
                   </div>
                 </div>
               </div>

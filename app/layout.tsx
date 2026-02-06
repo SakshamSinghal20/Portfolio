@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Portfolio - Product Designer & Developer",
-  description: "Portfolio showcasing delightful digital experiences merging thoughtful design with robust engineering",
+  title: "Saksham Singhal - AI & Machine Learning Specialist",
+  description: "Portfolio of Saksham Singhal, an aspiring AI and Machine Learning specialist from Bangalore. Focused on neural networks, NLP, and predictive analytics.",
   generator: "v0.app",
   icons: {
     icon: [
