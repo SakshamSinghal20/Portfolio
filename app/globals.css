@@ -476,6 +476,13 @@ nav {
   filter: grayscale(0%);
 }
 
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
 .card-content {
   padding: 24px;
 }

@@ -251,40 +251,44 @@ export default function Portfolio() {
               </a>
             </div>
             <div className="grid">
-              <article className="card animate-on-scroll">
-                <img src="/modern-design-system-interface.png" alt="Project 1" className="card-image" />
-                <div className="card-content">
-                  <span className="card-tag">Design System</span>
-                  <h3 className="card-title">Unified Component Library</h3>
-                  <p className="card-desc">
-                    Built a scalable design system serving 50+ product teams with consistent patterns and reusable
-                    components.
-                  </p>
-                </div>
-              </article>
+              <a href="https://github.com/SakshamSinghal20/Whisper" target="_blank" rel="noopener noreferrer" className="card-link">
+                <article className="card animate-on-scroll">
+                  <img src="/images/payment.jpg" alt="Whisper - Secure Payment System" className="card-image" />
+                  <div className="card-content">
+                    <span className="card-tag">Security</span>
+                    <h3 className="card-title">Whisper</h3>
+                    <p className="card-desc">
+                      A secure payment and transaction system with advanced encryption, biometric authentication, and real-time monitoring for safe financial operations.
+                    </p>
+                  </div>
+                </article>
+              </a>
 
-              <article className="card animate-on-scroll">
-                <img src="/mobile-app-interface.png" alt="Project 2" className="card-image" />
-                <div className="card-content">
-                  <span className="card-tag">Mobile App</span>
-                  <h3 className="card-title">Wellness Tracking Platform</h3>
-                  <p className="card-desc">
-                    Designed and developed a cross-platform mobile experience that helps users maintain healthy habits.
-                  </p>
-                </div>
-              </article>
+              <a href="https://github.com/SakshamSinghal20/Rocket.Chat-POLL" target="_blank" rel="noopener noreferrer" className="card-link">
+                <article className="card animate-on-scroll">
+                  <img src="/images/poll.png" alt="Rocket.Chat POLL - Polling Feature" className="card-image" />
+                  <div className="card-content">
+                    <span className="card-tag">Communication</span>
+                    <h3 className="card-title">Rocket.Chat POLL</h3>
+                    <p className="card-desc">
+                      A polling feature for Rocket.Chat that enables teams to create interactive polls, gather real-time feedback, and make data-driven decisions collaboratively.
+                    </p>
+                  </div>
+                </article>
+              </a>
 
-              <article className="card animate-on-scroll">
-                <img src="/modern-ecommerce-website.png" alt="Project 3" className="card-image" />
-                <div className="card-content">
-                  <span className="card-tag">E-Commerce</span>
-                  <h3 className="card-title">Sustainable Fashion Marketplace</h3>
-                  <p className="card-desc">
-                    Created a seamless shopping experience for eco-conscious consumers with integrated sustainability
-                    metrics.
-                  </p>
-                </div>
-              </article>
+              <a href="https://github.com/SakshamSinghal20/FlashCards" target="_blank" rel="noopener noreferrer" className="card-link">
+                <article className="card animate-on-scroll">
+                  <img src="/images/flashcards.jpg" alt="FlashCards - Learning Tool" className="card-image" />
+                  <div className="card-content">
+                    <span className="card-tag">Education</span>
+                    <h3 className="card-title">FlashCards</h3>
+                    <p className="card-desc">
+                      An interactive flashcard application for effective learning and vocabulary building with spaced repetition, progress tracking, and customizable study sets.
+                    </p>
+                  </div>
+                </article>
+              </a>
             </div>
           </div>
         </section>
