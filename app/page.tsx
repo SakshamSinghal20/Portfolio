@@ -88,7 +88,7 @@ export default function Portfolio() {
       <header>
         <div className="container">
           <nav>
-            <div className="logo">YOURNAME</div>
+            <div className="logo">SAKSHAM</div>
             <div className="nav-links">
               <a href="#about">About</a>
               <a href="#work">Work</a>
