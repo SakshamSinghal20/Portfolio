@@ -214,29 +214,29 @@ export default function Portfolio() {
             <div className="marquee-text">
               <span>Break & Build</span>
               <span className="marquee-dot">•</span>
-              <span>Break & Build</span>
+              <span>Train & Transform</span>
+              <span className="marquee-dot">•</span>
+              <span>Step & Scale</span>
               <span className="marquee-dot">•</span>
               <span>Break & Build</span>
               <span className="marquee-dot">•</span>
-              <span>Break & Build</span>
+              <span>Train & Transform</span>
               <span className="marquee-dot">•</span>
-              <span>Break & Build</span>
-              <span className="marquee-dot">•</span>
-              <span>Break & Build</span>
+              <span>Step & Scale</span>
               <span className="marquee-dot">•</span>
             </div>
             <div className="marquee-text" aria-hidden="true">
               <span>Break & Build</span>
               <span className="marquee-dot">•</span>
-              <span>Break & Build</span>
+              <span>Train & Transform</span>
+              <span className="marquee-dot">•</span>
+              <span>Step & Scale</span>
               <span className="marquee-dot">•</span>
               <span>Break & Build</span>
               <span className="marquee-dot">•</span>
-              <span>Break & Build</span>
+              <span>Train & Transform</span>
               <span className="marquee-dot">•</span>
-              <span>Break & Build</span>
-              <span className="marquee-dot">•</span>
-              <span>Break & Build</span>
+              <span>Step & Scale</span>
               <span className="marquee-dot">•</span>
             </div>
           </div>
