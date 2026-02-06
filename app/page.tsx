@@ -201,7 +201,7 @@ export default function Portfolio() {
                     Bangalore, India
                   </div>
                   <p className="hero-bio">
-                    I am Saksham Singhal, an aspiring AI and Machine Learning specialist currently pursuing my degree through Medhavi Skills University. Navigating the world of advanced technology via distance learning has fueled my independence and discipline, allowing me to dive deep into the architecture of intelligent systems while staying ahead of evolving industry trends. I am driven by a fascination for how data can be transformed into actionable intelligence, focusing my academic journey on the potential of neural networks, natural language processing, and predictive analytics. By blending theoretical rigor with a forward-looking perspective, I am preparing to build scalable solutions that address complex, real-world challenges and actively contribute to the future of the digital age.
+                    I am Saksham Singhal, an AI and Machine Learning specialist at Medhavi Skills University. My journey in distance learning has built the discipline required to master neural networks, NLP, and predictive analytics. I focus on transforming complex data into scalable, real-world solutions, blending theoretical rigor with a drive to build the intelligent systems of the future.
                   </p>
                 </div>
               </div>
