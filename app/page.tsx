@@ -22,11 +22,13 @@ export default function Portfolio() {
 
       words.forEach((word, wordIndex) => {
         const letters = word.split("")
+        html += '<span style="display: inline-block; white-space: nowrap;">'
         letters.forEach((letter) => {
           const delay = totalChars * 0.03
           html += `<span class="letter-blur" style="animation-delay: ${delay}s">${letter}</span>`
           totalChars++
         })
+        html += '</span>'
         if (wordIndex < words.length - 1) {
           html += " "
           totalChars++
