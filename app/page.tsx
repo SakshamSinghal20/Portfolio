@@ -289,6 +289,58 @@ export default function Portfolio() {
                   </div>
                 </article>
               </a>
+
+              <a href="https://github.com/SakshamSinghal20/Verve" target="_blank" rel="noopener noreferrer" className="card-link">
+                <article className="card animate-on-scroll">
+                  <img src="/images/verve.png" alt="Verve - Video Meetings" className="card-image" />
+                  <div className="card-content">
+                    <span className="card-tag">Communication</span>
+                    <h3 className="card-title">Verve</h3>
+                    <p className="card-desc">
+                      A simple, fast video meeting platform that requires no downloads. Features crystal-clear calls, customizable meeting rooms, and instant communication.
+                    </p>
+                  </div>
+                </article>
+              </a>
+
+              <a href="https://github.com/SakshamSinghal20/Chain-Lens-Bitcoin" target="_blank" rel="noopener noreferrer" className="card-link">
+                <article className="card animate-on-scroll">
+                  <img src="/images/chain_lens.png" alt="Chain-Lens-Bitcoin - Explorer" className="card-image" />
+                  <div className="card-content">
+                    <span className="card-tag">Blockchain</span>
+                    <h3 className="card-title">Chain Lens</h3>
+                    <p className="card-desc">
+                      An advanced Bitcoin blockchain explorer and visualizer. Features transaction tracking, real-time block analytics, and deep script classification insights.
+                    </p>
+                  </div>
+                </article>
+              </a>
+
+              <a href="https://github.com/SakshamSinghal20/Coin-Smith-Bitcoin" target="_blank" rel="noopener noreferrer" className="card-link">
+                <article className="card animate-on-scroll">
+                  <img src="/images/coin_smith.png" alt="Coin-Smith-Bitcoin - Wallet" className="card-image" />
+                  <div className="card-content">
+                    <span className="card-tag">Blockchain</span>
+                    <h3 className="card-title">Coin Smith</h3>
+                    <p className="card-desc">
+                      A robust Bitcoin wallet and transaction creation system. Allows secure key management, script generation, and streamlined transaction broadcasting.
+                    </p>
+                  </div>
+                </article>
+              </a>
+
+              <a href="https://github.com/SakshamSinghal20/Sherlock-Bitcoin" target="_blank" rel="noopener noreferrer" className="card-link">
+                <article className="card animate-on-scroll">
+                  <img src="/images/sherlock.png" alt="Sherlock-Bitcoin - Security" className="card-image" />
+                  <div className="card-content">
+                    <span className="card-tag">Security</span>
+                    <h3 className="card-title">Sherlock</h3>
+                    <p className="card-desc">
+                      A powerful diagnostic and forensic tool for analyzing Bitcoin transactions. Detects anomalies and provides deep insights into blockchain security.
+                    </p>
+                  </div>
+                </article>
+              </a>
             </div>
           </div>
         </section>
