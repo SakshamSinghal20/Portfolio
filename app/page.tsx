@@ -473,7 +473,6 @@ export default function Portfolio() {
             </div>
           </div>
           <div className="copyright">© 2026 Saksham Singhal. All rights reserved. | Phone: +91 9897010648</div>
-          <div className="credit">Designed using 1UI.dev and built using v0.app</div>
         </div>
       </footer>
     </>
