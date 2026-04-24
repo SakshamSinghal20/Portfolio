@@ -253,14 +253,27 @@ export default function Portfolio() {
               </a>
             </div>
             <div className="grid">
-              <a href="https://github.com/SakshamSinghal20/Whisper" target="_blank" rel="noopener noreferrer" className="card-link">
+              <a href="https://github.com/SakshamSinghal20/Verve" target="_blank" rel="noopener noreferrer" className="card-link">
                 <article className="card animate-on-scroll">
-                  <img src="/images/payment.jpg" alt="Whisper - Secure Payment System" className="card-image" />
+                  <img src="/images/verve.png" alt="Verve - Video Meetings" className="card-image" />
                   <div className="card-content">
-                    <span className="card-tag">Security</span>
-                    <h3 className="card-title">Whisper</h3>
+                    <span className="card-tag">Communication</span>
+                    <h3 className="card-title">Verve</h3>
                     <p className="card-desc">
-                      A secure payment and transaction system with advanced encryption, biometric authentication, and real-time monitoring for safe financial operations.
+                      A fullstack video conferencing platform built with React, Node.js, and Mediasoup SFU. Supports real-time in-call chat, screen sharing, raise hand, adaptive video grid, and JWT-based auth with Socket.io handling signaling and MongoDB for persistence.
+                    </p>
+                  </div>
+                </article>
+              </a>
+
+              <a href="https://github.com/SakshamSinghal20/Coin-Smith-Bitcoin" target="_blank" rel="noopener noreferrer" className="card-link">
+                <article className="card animate-on-scroll">
+                  <img src="/images/coin_smith.png" alt="Coin-Smith-Bitcoin - Transaction Builder" className="card-image" />
+                  <div className="card-content">
+                    <span className="card-tag">Blockchain</span>
+                    <h3 className="card-title">Coin Smith</h3>
+                    <p className="card-desc">
+                      A protocol-first Bitcoin PSBT transaction builder with a Flask REST API and single-page web visualizer. Handles coin selection, fee estimation, BIP-174 serialization, and RBF/locktime logic validated by a 28-test suite across 24 fixtures.
                     </p>
                   </div>
                 </article>
@@ -273,7 +286,7 @@ export default function Portfolio() {
                     <span className="card-tag">Communication</span>
                     <h3 className="card-title">Rocket.Chat POLL</h3>
                     <p className="card-desc">
-                      A polling feature for Rocket.Chat that enables teams to create interactive polls, gather real-time feedback, and make data-driven decisions collaboratively.
+                      An open-source contribution to Rocket.Chat adding a full polling system — modal-based poll creation, real-time vote sync via WebSocket/DDP, live Chart.js visualizations, anonymous voting, and CSV/JSON export. Built end-to-end in TypeScript using the Rocket.Chat Apps Engine.
                     </p>
                   </div>
                 </article>
@@ -292,14 +305,14 @@ export default function Portfolio() {
                 </article>
               </a>
 
-              <a href="https://github.com/SakshamSinghal20/Verve" target="_blank" rel="noopener noreferrer" className="card-link">
+              <a href="https://github.com/SakshamSinghal20/Whisper" target="_blank" rel="noopener noreferrer" className="card-link">
                 <article className="card animate-on-scroll">
-                  <img src="/images/verve.png" alt="Verve - Video Meetings" className="card-image" />
+                  <img src="/images/payment.jpg" alt="Whisper - Bitcoin Silent Payments Indexer" className="card-image" />
                   <div className="card-content">
-                    <span className="card-tag">Communication</span>
-                    <h3 className="card-title">Verve</h3>
+                    <span className="card-tag">Blockchain</span>
+                    <h3 className="card-title">Whisper</h3>
                     <p className="card-desc">
-                      A simple, fast video meeting platform that requires no downloads. Features crystal-clear calls, customizable meeting rooms, and instant communication.
+                      A production-grade Bitcoin Silent Payments (BIP-352) indexer built in Rust. Features a real-time block ingestion pipeline via ZMQ, an Axum REST API, PostgreSQL backend, and full Docker Compose deployment.
                     </p>
                   </div>
                 </article>
@@ -307,25 +320,12 @@ export default function Portfolio() {
 
               <a href="https://github.com/SakshamSinghal20/Chain-Lens-Bitcoin" target="_blank" rel="noopener noreferrer" className="card-link">
                 <article className="card animate-on-scroll">
-                  <img src="/images/chain_lens.png" alt="Chain-Lens-Bitcoin - Explorer" className="card-image" />
+                  <img src="/images/chain_lens.png" alt="Chain Lens - Decentralized Flashcards" className="card-image" />
                   <div className="card-content">
                     <span className="card-tag">Blockchain</span>
                     <h3 className="card-title">Chain Lens</h3>
                     <p className="card-desc">
-                      An advanced Bitcoin blockchain explorer and visualizer. Features transaction tracking, real-time block analytics, and deep script classification insights.
-                    </p>
-                  </div>
-                </article>
-              </a>
-
-              <a href="https://github.com/SakshamSinghal20/Coin-Smith-Bitcoin" target="_blank" rel="noopener noreferrer" className="card-link">
-                <article className="card animate-on-scroll">
-                  <img src="/images/coin_smith.png" alt="Coin-Smith-Bitcoin - Wallet" className="card-image" />
-                  <div className="card-content">
-                    <span className="card-tag">Blockchain</span>
-                    <h3 className="card-title">Coin Smith</h3>
-                    <p className="card-desc">
-                      A robust Bitcoin wallet and transaction creation system. Allows secure key management, script generation, and streamlined transaction broadcasting.
+                      A decentralized flashcard app on Flare Coston2 testnet. Q&A pairs are stored on-chain via Solidity smart contracts with spaced repetition logic and on-chain progress tracking.
                     </p>
                   </div>
                 </article>
