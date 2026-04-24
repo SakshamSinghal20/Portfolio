@@ -203,7 +203,7 @@ export default function Portfolio() {
                     Bangalore, India
                   </div>
                   <p className="hero-bio">
-                    I am Saksham Singhal, an AI and Machine Learning specialist at Medhavi Skills University. My journey in distance learning has built the discipline required to master neural networks, NLP, and predictive analytics. I focus on transforming complex data into scalable, real-world solutions, blending theoretical rigor with a drive to build the intelligent systems of the future.
+                    I'm Saksham Singhal, a Computer Science undergraduate (AI/ML) at Polaris School of Technology, Bangalore. I build full-stack web applications, real-time systems, and protocol-level tools from a WebRTC video conferencing platform to open-source contributions merged into Apache Airflow. I care about writing clean, production-grade code and shipping things that actually work.
                   </p>
                 </div>
               </div>
