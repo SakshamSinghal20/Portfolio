@@ -367,7 +367,7 @@ nav {
   max-width: 600px;
   font-weight: 300;
   line-height: 1.5;
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 .hero-bio span {
